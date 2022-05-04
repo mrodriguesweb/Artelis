@@ -15,7 +15,7 @@ body {
 
 #header {
 	background-color: #B3B31E;
-	padding: 26px;
+	padding: 30px;
 	text-align: center;
 }
 
@@ -154,4 +154,9 @@ body {
 
 .hr {
 	border: 1px solid #FF8C00;
+}
+
+#dev {
+	text-align: center;
+	color: darkgoldenrod;
 }

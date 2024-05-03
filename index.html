@@ -5,41 +5,155 @@
 	<meta charset="utf-8">
 	<title> Artelis - Feito com amor </title>
 
-	<link rel="stylesheet" type="text/css" href="estilo.css"> <!-- Link referenciando o arquivo CSS com os estilos do Site -->
-
-	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-
 	<link rel="icon" type="image/png" href="images/icone_pag.png"/>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
 	</head>
 
-	<body>
+    <body>
 
-		<div id="principal"> <!--Todo conteúdo do site está dentro dessa div configurada -->
-			
-			<img id="logo" src="images/artelis_logo.png">
+        <header>
 
-			<div id="header"> 
+            <div class="container">
 
-				<a href="index.html" class="headerText"> HOME &nbsp; | &nbsp; </a>
-				<a href="produtos.html" class="headerText"> NOSSOS PRODUTOS &nbsp; | &nbsp; </a> 
-				<a href="contato.html" class="headerText"> CONTATO </a>
+                <br>
 
-			</div>
+                <div class="flex-container-header1">
 
-			<div id="conteudo">
-				
-				<h3> Sobre nós &nbsp; <i class="em em-yarn" aria-role="presentation" aria-label="BALL OF YARN"></i> </h3>
+                    <a href="#" class="instagram-link">
+                        <img src="images/site/icon_instagram.png" class="instagram-icon"> 
+                    </a>
 
-				<p> Seja bem vinda ao nosso site! Fazemos acessórios de crochê artesanais, feitos a mão, com muito carinho. São feitos por encomenda. Somos de Barueri - SP porém enviamos para todo o Brasil ! </p>
+                    <img src="images/artelis_log.png">
 
-				<p> Explore nosso catálogo e adquira seu item ! </p>
-				<a href="produtos.html" id="linkIndex"> Nossos produtos </a> &nbsp; <i class="em em-point_left" aria-role="presentation" aria-label="WHITE LEFT POINTING BACKHAND INDEX"></i>
+                    <button class="button-pedido-header">Faça seu Pedido</button>
 
-			</div>
+                </div>
 
-		</div>
+                <div class="flex-container-header2">
 
-	</body>
+                    <h1>Feitos com carinho, usados com orgulho: conheça nossos acessórios de crochê feitos à mão para uma moda autêntica.</h1>
+
+                    <button class="button-pedido-principal">Faça seu Pedido</button>
+
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="section-sobre">
+
+                <div class="flex-container-sobre">
+
+                    <img src="images/imgbebe.png" style="margin-left: 60px; margin-bottom: -170px;">
+                    <img src="images/imgcozinha.png" style="margin-left: -80px; z-index: 2;">
+                    <img src="images/imgbolsa.png" style="margin-left: -180px; margin-bottom: -340px; z-index: 1;">
+
+                    <div class="flex-container-sobre-textos">
+
+                        <h2>SOBRE</h2>
+
+                        <p>
+                            Fazemos acessórios de crochê artesanais, feitos a mão e com muito carinho. São feitos por encomenda. Somos de Barueri-SP porém enviamos para todo o Brasil!<br> Explore nosso catálogo e adquira seu item!
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="section-servicos">
+
+                <div class="flex-container-servicos">
+
+                    <h2>SERVIÇOS</h2>
+
+                    <p>
+                        Trabalhamos com diversos tipos de itens. Veja alguns abaixo:
+                    </p>
+
+                    <div class="flex-container-servicos-img">
+
+                        <div class="flex-container-serv1">
+
+                            <img src="images/imgbolsas.png">
+                            <div class="servicos-label">Bolsas</div>
+
+                        </div>
+
+                        <div class="flex-container-serv2">
+
+                            <img src="images/imgcozinha_servicos.png">
+                            <div class="servicos-label">Cozinha</div>
+
+                        </div>
+
+                        <div class="flex-container-serv3">
+
+                            <img src="images/imgconjuntos.png">
+                            <div class="servicos-label">Conjuntos</div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="flex-container-servicos-label">
+
+                        <div>Bolsas</div>
+                        <div>Cozinha</div>
+                        <div>Conjuntos</div>
+
+                    </div> -->
+                    
+                    <button class="button-pedido-principal">Faça seu Pedido</button>
+
+                </div>
+
+            </section>
+
+            <section class="section-mapa">
+
+                <h2>Venha Conhecer</h2>
+
+                <img src="images/site/mapa.jpg">
+
+            </section>
+
+        </main>
+
+        <footer>
+
+            <div class="flex-container-footer">
+
+                <br>
+
+                <a href="#" class="instagram-link">
+                    <img src="images/site/icon_instagram.png" class="instagram-icon"> 
+                </a>
+
+                <img src="images/artelis_log.png">
+
+                <p>Copyright &copy; 2024 | Artelis - Todos os direitos reservados</p>
+
+                <br>
+
+            </div>
+
+        </footer>
+
+    </body>
 
 </html>

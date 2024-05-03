@@ -243,7 +243,79 @@ footer img {
     margin-top: 30px;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
+    header .flex-container-header1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    header .flex-container-header2 {
+        margin-top: 30px;
+    }
+
+    header h1 {
+        width: 80%;
+    }
+
+    header .instagram-icon {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .button-pedido-header {
+        display: none;
+    }
+
+    .section-sobre img {
+        display: none;
+    }
+
+    .section-sobre .flex-container-sobre-textos {
+        align-items: center;
+        margin: 0px;
+    }
+
+    .section-sobre p {
+        width: 60%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section-servicos p {
+        font-size: 18px;
+    }
+
+    .section-servicos .flex-container-servicos-img {
+        flex-direction: column;
+    }
+    
+    .section-servicos .flex-container-servicos-label {
+        flex-direction: column;
+    }
+
+    .section-servicos img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .section-servicos .flex-container-servicos-img .servicos-label {
+        width: 250px;
+    }
+
+    .section-mapa img {
+        height: 400px;
+    }
+
+    footer .instagram-icon {
+        width: 50px; 
+        height: 50px;
+    }
+} */
+
+@media screen and (max-width: 1250px) {
     header .flex-container-header1 {
         display: flex;
         flex-direction: column;
